@@ -1,0 +1,248 @@
+body {
+    background-color: #AD1C0C;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 5px 0px;
+   margin: 0px;
+   background-image: url(../Fotos/Imagen\ de\ Fondo.jpg);
+   width: 1325px;
+    height: 400px; 
+}
+
+.header_logo{
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+}
+
+nav ul li :hover {
+background-color: blue;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #AD1C0C;
+    margin-inline-start: 100px;
+    border: solid 2px black;
+}
+
+
+.section_portada{
+    width: 1300px;
+    height: 400px; 
+    margin-top: 15px;
+}
+
+.biografia_banda{
+  width: 600px;
+  height: 40px;
+}
+
+.foto_banda{
+    margin-left: 680px;
+    width:645px ;
+    height:532px ;
+}
+
+
+.seccion_fotos{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.section_videos{
+ margin: 0px 30px;
+ margin-top: 20px;
+}
+
+.video_presentacion{
+    margin-bottom: -15px;
+    width: 1200px;
+    height: 400px;
+}
+
+.footer {
+    width: 800px;
+    height: 200px;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+fieldset {
+  margin-right: 0px;
+  background-color: grey;
+  text-align-last: center;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+
+input {
+     text-align: center;
+ }
+
+ p{
+     text-align: center;
+     font-style: italic;
+ }
+
+ div{
+     text-align: center;
+     padding-bottom: 30px;
+ }
+
+ button{
+     background-color:  #AD1C0C ;
+ }
+
+ h5{
+     font-weight: 600;  
+ }
+
+ h3{
+     font-weight: 700;
+     text-align: center;
+ }
+
+ a{
+     text-decoration: none;
+     color: beige;
+
+ }
+
+
+ .flexContainer {
+width: 100%;
+height: 10vh;
+background-color: gray;
+display: flex;
+flex-flow: column wrap;
+}
+
+.flexItem {
+    width:660px ;
+    height:500px ;
+background-color: gray;
+}
+
+.portada {
+    width: 1325px;
+    height: 400px; 
+background-color:darkgreen;
+flex-flow: column wrap;
+justify-content: center;
+}
+
+.video {
+    margin-bottom: -15px;
+    width: 1325px;
+    height: 500px;
+background-color: white;
+flex-flow: column wrap;
+
+}
+
+.footer {
+    width: 1325px;
+    height: 500px;
+background-color: darkblue;
+}
+
+.flexeventos{
+    width: 1320px;
+   height: 80px;
+    background-color: thistle;
+    border: solid 2px black;
+}
+
+.flexItemeventos{
+width: 1320px;
+height: 500px;
+background-color: whitesmoke;
+border: solid 2px black;
+}
+
+.gridContainer{
+    width: 100%;
+    height: 1080px;
+background-color: darkblue;
+display: grid;
+grid-template-columns:repeat(4, 4fr);
+}
+
+.gridItem{
+    background-color: turquoise;
+ border: solid 2px black ;
+justify-self: center;
+align-self: center
+}
+
+.gridContainervideos {
+    width: 100%;
+    height: 1300px;
+ background-color: tomato;
+display: grid;
+grid-template-columns:repeat(2, 3fr);
+grid-template-areas: "uno dos"
+"tres cuatro"
+"cinco seis"
+}
+
+.gridItemv { 
+    background-color: olive;
+       border: solid 2px black;
+justify-self: center;
+align-self: center;
+}
+
+.uno{ 
+    background-color: orangered;
+    grid-area: uno;
+}
+
+.dos{ 
+    background-color: palegoldenrod;
+    grid-area: dos;
+}
+
+.tres{ 
+    background-color: purple;
+    grid-area: tres;
+}
+
+.cuatro{ 
+    background-color: rosybrown;
+    grid-area: cuatro;
+}
+
+.cinco{ 
+    background-color: slateblue;
+    grid-area: cinco;
+}
+
+.seis{ 
+    background: teal;
+    grid-area: seis;
+}
+
+
+.flexformulario{
+  background-color: cadetblue;
+  padding: 20px;
+display: flex;
+grid-template-columns:repeat(1, 1fr);
+flex-direction: column;
+width: 1285px;
+height: 500px;
+}
