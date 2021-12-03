@@ -16,7 +16,7 @@ header {
 .header_logo{
     width: 200px;
     height: 200px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 nav ul li :hover {
