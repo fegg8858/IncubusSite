@@ -1,7 +1,6 @@
 body {
     background-color: #AD1C0C;
     font-family: 'Quicksand', sans-serif;
-    margin: 0px 0px 0px 10px;
 }
 
 header {
@@ -42,6 +41,8 @@ nav ul li{
     animation-timing-function: ease-in-out;
     animation-duration: 3s;
 }
+
+ /* ANIMACION PORTADA */ 
 
 @keyframes efecto {
     0% {transform: scale(1.02,1.02);
@@ -102,7 +103,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-color: white;
+color:white;
 }
 
 
@@ -134,7 +135,7 @@ input {
  }
 
  h5{
-     font-weight: 600;  
+     font-weight: 700;  
  }
 
  h3{
@@ -184,7 +185,7 @@ flex-flow: column wrap;
 background: linear-gradient(90deg, rgba(229,35,59,1) 0%, rgba(253,29,29,1) 0%, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
 }
 
-.flexeventos{
+.flexTitulo{
     width: 1325px;
    height: 100px;
     background-color:blueviolet;
@@ -286,4 +287,97 @@ grid-template-columns:repeat(1, 1fr);
 flex-direction: column;
 width: 1325px;
 height: 680px;
+}
+
+.card{
+    width: 1325px;
+}
+
+.card-footer{
+    width: 1325px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+                /*TARJETAS BOOTSTRAP*/
+@media screen and (max-width:1422px){
+.card-group {
+    width: 1325px;
+}
+}
+
+/*MEDIA QUERIES PAGINA FOTOS TABLET*/
+
+
+@media screen and (max-width:768px){
+
+.gridContainer{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+width: 1325px;
+height: 1500px;
+}
+
+.gridItem{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding-left: 50px;
+}
+}
+
+/*MEDIA QUERIES PAGINA FOTOS MOVIL*/
+
+@media screen and (max-width:575px){
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 1325px;
+        height: 2210px;
+        border: solid 2px black ;
+        }
+
+        .gridItem{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding-left: 150px;
+            border: solid 2px black ;
+            }
+}
+
+
+/*MEDIA QUERIES PAGINA VIDEOS*/
+
+ @media screen and (max-width:768px){
+ h5 {padding-right: 50px; 
+}
+
+.gridContainervideos{
+height: 3700px;                
+display: grid;
+grid-template-columns:repeat(1, 1fr);
+grid-template-areas: "uno "
+"dos"
+"tres" 
+"cuatro"
+"cinco" 
+"seis"
+}
+
+.section_videos{width: 1000px;
+    height: 500px;
+    padding-left: 250px;
+}
+
+.gridItemv{           
+display: grid;
+grid-template-columns:repeat(1, 1fr);
+grid-template-areas: "uno "
+"dos"
+"tres" 
+"cuatro"
+"cinco" 
+"seis"
+}                             
 }
