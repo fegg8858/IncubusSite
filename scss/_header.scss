@@ -1,0 +1,29 @@
+header {
+    background-color: black;
+    padding: 5px 0px;
+   margin: 0px;
+   background-image: url(../Fotos/ImagendeFondo.jpg);
+   width: 1325px;
+    height: 400px; 
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px;
+        background-color: #AD1C0C;
+        margin-inline-start: 100px;
+        border: solid 2px black;
+    }
+
+    nav ul li :hover{
+    background-color: azure;
+    }
+}
+
+.header_logo{
+    width: 200px;
+    height: 220px;
+    opacity: 0.8;
+}
+
+

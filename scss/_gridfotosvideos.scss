@@ -1,0 +1,77 @@
+/* CSS GRID PAGINA FOTOS Y VIDEOS */ 
+
+/* CSS GRID PAGINA FOTOS */ 
+.gridContainer{
+    width: 1325px;
+    height: 1100px;
+background-color: darkblue;
+display: grid;
+grid-template-columns:repeat(4, 4fr);
+}
+
+.gridItem{
+ background-color: turquoise;
+ border: solid 2px black ;
+justify-self: center;
+align-self: center;
+}
+
+.gridItem :hover{
+    transform: scale(1.1,1.1);
+    transition: transform 2s;
+}
+
+/* CSS GRID PAGINA VIDEOS */ 
+.gridContainervideos {
+    margin-bottom: 30px;
+    width: 1325px;
+    height: 1300px;
+ background-color: tomato;
+display: grid;
+grid-template-columns:repeat(2, 3fr);
+grid-template-areas: "uno dos"
+"tres cuatro"
+"cinco seis"
+}
+
+.gridItemv { 
+    background-color: olive;
+       border: solid 2px black;
+align-content: center;
+justify-self: unset;
+}
+
+.gridItemv :hover{
+    transform: scale(1.1,1.1);
+    transition: transform 2s;
+}
+
+.uno{ 
+    background-color: orangered;
+    grid-area: uno;
+}
+
+.dos{ 
+    background-color: palegoldenrod;
+    grid-area: dos;
+}
+
+.tres{ 
+    background-color: purple;
+    grid-area: tres;
+}
+
+.cuatro{ 
+    background-color: rosybrown;
+    grid-area: cuatro;
+}
+
+.cinco{ 
+    background-color: slateblue;
+    grid-area: cinco;
+}
+
+.seis{ 
+    background: teal;
+    grid-area: seis;
+}

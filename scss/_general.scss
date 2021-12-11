@@ -1,0 +1,114 @@
+/* SECCION BIOGRAFIA INDEX */ 
+
+.biografia_banda{
+    width: 600px;
+    height: 40px;
+  }
+  
+  /* FOTO BANDA INDEX */ 
+
+  .foto_banda{
+      margin-left: 680px;
+      width:645px ;
+      height:532px ;
+  }
+  
+  /* SECCION FOTOS //PAGINA FOTOS */ 
+  .seccion_fotos{
+      width: 300px;
+      height: 300px;
+      margin-top: 30px;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+   /* SECCION VIDEOS //PAGINA VIDEOS */ 
+  .section_videos{
+   margin: 0px 30px;
+   margin-top: 20px;
+  }
+
+   /* VIDEO PRESENTACION //INDEX */ 
+  
+  .video_presentacion{
+      margin-bottom: -15px;
+      width: 1200px;
+      height: 400px;
+  }
+
+  /* FOOTER 5 PAGINAS */ 
+  
+  .card {
+      margin-top: 20px;
+      border-color: black;
+      margin-right: 5px;
+  }
+  
+  .card-footer{
+      background-color: darkgray;
+  }
+  
+/* TEXTOS */
+  
+  h1,h2,h3,h4,h5,h6{
+      text-align: center;
+  }
+  
+  h1{
+  color:white;
+  }
+
+  input {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+}
+
+h5{
+        font-weight: 700;  
+    }
+   
+h3{
+        font-weight: 700;
+        text-align: center;
+    }
+   
+a{
+        text-decoration: none;
+        color: beige;
+    }
+
+  /* FORMULARIO CONTACTO */
+  
+  fieldset {
+    margin-right: 0px;
+    background-color: grey;
+    text-align-last: center;
+    padding: 20px;
+    margin-top: 0px;
+  }
+  
+ /* SECCIONES 5 PAGINAS */
+  
+   div{
+       text-align: center;
+       padding-bottom: 30px;
+   }
+  
+/* BOTONES */
+
+   button{
+       background-color:#AD1C0C;
+       }
+
+   /* FOOTER */
+    
+    .card{
+        width: 1325px;
+    }
+    
+    .card-footer{
+        width: 1325px;
+    }

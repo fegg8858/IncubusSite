@@ -1,0 +1,12 @@
+/* CSS FLEX PAGINA CONTACTO */ 
+
+.flexformulario{
+    background-color: cadetblue;
+    padding: 20px;
+  display: flex;
+  grid-template-columns:repeat(1, 1fr);
+  flex-direction: column;
+  width: 1325px;
+  height: 680px;
+  }
+  
