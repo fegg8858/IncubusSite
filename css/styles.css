@@ -325,16 +325,16 @@ button {
   background-color: #16366B;
   color: white;
   border: 1px solid black;
-  height: 100px; }
+  width: 1340px; }
 
 .cardy {
   background-color: green;
   color: black;
   border: 1px solid white;
-  height: 400px; }
+  width: 1340px; }
 
 .cardys {
   background-color: green;
   color: white;
   border: 1px solid white;
-  height: 50px; }
+  width: 1340px; }
