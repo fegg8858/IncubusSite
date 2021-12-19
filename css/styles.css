@@ -7,14 +7,14 @@ header {
   padding: 5px 0px;
   margin: 0px;
   background-image: url(../Fotos/ImagendeFondo.jpg);
-  width: 1325px;
+  width: 1340px;
   height: 400px; }
   header nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 20px;
     background-color: #AD1C0C;
-    margin-inline-start: 100px;
+    margin-left: 25px;
     border: solid 2px black; }
   header nav ul li :hover {
     background-color: azure; }
@@ -47,13 +47,13 @@ header {
 
 /* SECCION BIOGRAFIA INDEX */
 .biografia_banda {
-  width: 600px;
+  width: 640px;
   height: 40px; }
 
 /* FOTO BANDA INDEX */
 .foto_banda {
-  margin-left: 680px;
-  width: 645px;
+  margin-left: 700px;
+  width: 640px;
   height: 532px; }
 
 /* SECCION FOTOS //PAGINA FOTOS */
@@ -76,7 +76,7 @@ header {
   height: 400px; }
 
 /* FOOTER 5 PAGINAS */
-.card {
+.card, .card-body {
   margin-top: 20px;
   border-color: black;
   margin-right: 5px; }
@@ -126,18 +126,18 @@ div {
 button {
   background-color: #AD1C0C; }
 
-/* FOOTER */
-.card {
-  width: 1325px; }
+/* PIE DE PAGINA */
+.footer {
+  padding: 30px; }
 
-.card-footer {
-  width: 1325px; }
+.card-group {
+  margin-left: 7px; }
 
 /* CSS FLEX PAGINA INDEX Y EVENTOS */
 /* CSS FLEX MENU NAVEGACION */
 .flexContainer {
-  width: 100%;
-  height: 22vh;
+  width: 1340px;
+  height: 140px;
   background-color: gray;
   display: flex;
   flex-flow: column wrap;
@@ -155,7 +155,7 @@ button {
 
 /* CSS FLEX FOTO PORTADA */
 .portada {
-  width: 1325px;
+  width: 1340px;
   height: 430px;
   background-color: darkgreen;
   flex-flow: column wrap;
@@ -163,22 +163,23 @@ button {
 
 /* CSS FLEX VIDEO PRESENTACION INDEX */
 .video {
-  width: 1325px;
+  width: 1340px;
   height: 500px;
+  margin-bottom: 10px;
   background-color: white;
   flex-flow: column wrap;
   background: linear-gradient(90deg, #e5233b 0%, #fd1d1d 0%, #833ab4 0%, #fcb045 100%); }
 
 /* CSS FLEX TITULO PAGINAS */
 .flexTitulo {
-  width: 1325px;
+  width: 1340px;
   height: 100px;
   background-color: blueviolet;
   border: solid 2px black; }
 
 /* CSS FLEX LISTADO PAGINA EVENTOS */
 .flexItemeventos {
-  width: 1325px;
+  width: 1340px;
   height: 500px;
   background-color: #f5f5f5;
   border: solid 2px black;
@@ -187,8 +188,9 @@ button {
 /* CSS GRID PAGINA FOTOS Y VIDEOS */
 /* CSS GRID PAGINA FOTOS */
 .gridContainer {
-  width: 1325px;
+  width: 1340px;
   height: 1100px;
+  margin-bottom: 20px;
   background-color: darkblue;
   display: grid;
   grid-template-columns: repeat(4, 4fr); }
@@ -206,7 +208,7 @@ button {
 /* CSS GRID PAGINA VIDEOS */
 .gridContainervideos {
   margin-bottom: 30px;
-  width: 1325px;
+  width: 1340px;
   height: 1300px;
   background-color: tomato;
   display: grid;
@@ -254,55 +256,77 @@ button {
   display: flex;
   grid-template-columns: repeat(1, 1fr);
   flex-direction: column;
-  width: 1325px;
+  width: 1340px;
   height: 680px; }
 
 /*MEDIA QUERIES*/
 /*TARJETAS BOOTSTRAP*/
-@media screen and (max-width: 1422px) {
-  .card-group {
-    width: 1330px; } }
-
 /*MEDIA QUERIES PAGINA FOTOS TABLET*/
-@media screen and (max-width: 768px) {
-  .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 1325px;
-    height: 1500px; }
-  .gridItem {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-left: 50px; } }
-
-/*MEDIA QUERIES PAGINA FOTOS MOVIL*/
 @media screen and (max-width: 575px) {
   .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1325px;
-    height: 2210px;
-    border: solid 2px black; }
+    width: 200px;
+    height: 2400px;
+    background-color: brown; }
   .gridItem {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-left: 150px;
-    border: solid 2px black; } }
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
+    border: solid 2px black;
+    width: 400px; }
+  .flexContainer {
+    display: flex;
+    width: 800px; }
+  header {
+    width: 800px; }
+  .flexItem {
+    display: flex;
+    width: 800px; }
+  .section_portada {
+    display: flex;
+    width: 740px;
+    margin: 20px; }
+  .section_fotos {
+    display: grid;
+    width: 400px; }
+  .flexTitulo {
+    width: 800px; }
+  .footer {
+    width: 800px; }
+  .cardy {
+    width: 800px; }
+  .cardys {
+    width: 800px; }
+  img {
+    width: 600px; } }
 
-/*MEDIA QUERIES PAGINA VIDEOS TABLET Y MOVIL*/
-@media screen and (max-width: 768px) {
-  h5 {
-    padding-right: 50px; }
-  .gridContainervideos {
-    height: 3700px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres"  "cuatro" "cinco"  "seis"; }
-  .section_videos {
-    width: 1000px;
-    height: 500px;
-    padding-left: 250px; }
-  .gridItemv {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres"  "cuatro" "cinco"  "seis"; } }
+/* FOOTER Y TARJETAS BOOTSTRAP*/
+/* EXTEND TARJETAS BOOTSTRAP INDEX */
+.card, .card-body {
+  background-color: #16366B;
+  color: black;
+  border-radius: 5px solid white;
+  border-color: aliceblue; }
+
+.card-body {
+  background-color: burlywood; }
+
+/* MIXIN FOOTER TODAS LAS PAGINAS */
+.footer {
+  background-color: #16366B;
+  color: white;
+  border: 1px solid black;
+  height: 100px; }
+
+.cardy {
+  background-color: green;
+  color: black;
+  border: 1px solid white;
+  height: 400px; }
+
+.cardys {
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+  height: 50px; }

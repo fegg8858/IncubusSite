@@ -1,0 +1,37 @@
+
+/* FOOTER Y TARJETAS BOOTSTRAP*/
+    
+/* EXTEND TARJETAS BOOTSTRAP INDEX */
+
+.card{
+    background-color: #16366B;
+    color: black;
+    border-radius: 5px solid white;
+    border-color: aliceblue;
+}
+
+.card-body{
+    @extend .card;
+    background-color: burlywood;
+}
+
+
+/* MIXIN FOOTER TODAS LAS PAGINAS */
+
+@mixin piepagina ($colorfondo,$color,$borde,$alto) {
+    background-color:$colorfondo;
+    color: $color;
+    border: $borde;
+    height: $alto;
+}
+
+.footer{
+    @include piepagina (#16366B,white,1px solid black,100px);
+}
+.cardy{
+    @include piepagina (green,black,1px solid white,400px);
+}
+
+.cardys{
+    @include piepagina (green,white,1px solid white,50px);
+}
