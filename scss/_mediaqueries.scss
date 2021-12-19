@@ -1,77 +1,85 @@
 /*MEDIA QUERIES*/
 
                 /*TARJETAS BOOTSTRAP*/
-               
+                @media screen and (max-width:1422px){
+                    .card-group {
+                        width: 1330px;
+                    }
+                    }
                     
                     /*MEDIA QUERIES PAGINA FOTOS TABLET*/
-
+                    
+                    
+                    @media screen and (max-width:768px){
+                    
+                    .gridContainer{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    width: 1325px;
+                    height: 1500px;
+                    }
+                    
+                    .gridItem{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    padding-left: 50px;
+                    }
+                    }
+                    
+                    /*MEDIA QUERIES PAGINA FOTOS MOVIL*/
+                    
                     @media screen and (max-width:575px){
                         .gridContainer{
                             display: grid;
                             grid-template-columns: repeat(2,1fr);
-                            width: 200px;
-                            height: 2400px;
-                            background-color: brown;
-                            
+                            width: 1325px;
+                            height: 2210px;
+                            border: solid 2px black ;
                             }
                     
                             .gridItem{
                                 display: grid;
-                                grid-template-columns: repeat(2,1fr);
-                                padding-left: 40px;
+                                grid-template-columns: repeat(3,1fr);
+                                padding-left: 150px;
                                 border: solid 2px black ;
-                                width: 400px;
                                 }
-            
+                    }
                     
-                    .flexContainer{
-                        display: flex;
-                        width: 800px;
-                        
-                        }
-                        header{
-    
-                            width: 800px;
-  
-                            }
-
-                        .flexItem{
-                            display: flex;
-                            width: 800px;
-                            }
-
-                  
-                    .section_portada{
-                    display: flex;
-                        width: 740px;
-                        margin: 20px;
-                        }
-
-                        .section_fotos{
-                            display:grid;
-                            width: 400px;
-                            }
-
-                    .flexTitulo{
-                        
-                        width: 800px;
-                        }
-
-                        .footer{
-
-                            width: 800px;
-                        }
-                    .cardy{
-                        width: 800px;
-                        }
-                        .cardys{
-                            width: 800px;
-                            }
-                            img{
-    
-                                width: 600px;
-                                }
-                        
-                }
+                    
+                    /*MEDIA QUERIES PAGINA VIDEOS TABLET Y MOVIL*/
+                    
+                     @media screen and (max-width:768px){
+                     h5 {padding-right: 50px; 
+                    }
+                    
+                    .gridContainervideos{
+                    height: 3700px;                
+                    display: grid;
+                    grid-template-columns:repeat(1, 1fr);
+                    grid-template-areas: "uno "
+                    "dos"
+                    "tres" 
+                    "cuatro"
+                    "cinco" 
+                    "seis"
+                    }
+                    
+                    .section_videos{width: 1000px;
+                        height: 500px;
+                        padding-left: 250px;
+                    }
+                    
+                    .gridItemv{           
+                    display: grid;
+                    grid-template-columns:repeat(1, 1fr);
+                    grid-template-areas: "uno "
+                    "dos"
+                    "tres" 
+                    "cuatro"
+                    "cinco" 
+                    "seis"
+                    }                             
+                    }
+                    
 
                 
