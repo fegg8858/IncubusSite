@@ -15,7 +15,7 @@
                     .gridContainer{
                     display: grid;
                     grid-template-columns: repeat(3,1fr);
-                    width: 1325px;
+                    width: 900px;
                     height: 1500px;
                     }
                     
@@ -32,16 +32,16 @@
                         .gridContainer{
                             display: grid;
                             grid-template-columns: repeat(2,1fr);
-                            width: 1325px;
+                            width: 600px;
                             height: 2210px;
-                            border: solid 2px black ;
+                            background-color: #AD1C0C;
                             }
                     
                             .gridItem{
                                 display: grid;
                                 grid-template-columns: repeat(3,1fr);
-                                padding-left: 150px;
-                                border: solid 2px black ;
+                                padding: 10px;
+                                background-color: #a8c526;
                                 }
                     }
                     
@@ -53,6 +53,7 @@
                     }
                     
                     .gridContainervideos{
+                        width: 900px;
                     height: 3700px;                
                     display: grid;
                     grid-template-columns:repeat(1, 1fr);
@@ -64,9 +65,45 @@
                     "seis"
                     }
                     
-                    .section_videos{width: 1000px;
+                    .section_videos{width: 800px;
                         height: 500px;
-                        padding-left: 250px;
+                        padding: 10px;
+                    }
+                    
+                    .gridItemv{           
+                    display: grid;
+                    grid-template-columns:repeat(1, 1fr);
+                    grid-template-areas: "uno "
+                    "dos"
+                    "tres" 
+                    "cuatro"
+                    "cinco" 
+                    "seis"
+                    }                             
+                    }
+
+                     @media screen and (max-width:575px){
+                     h5 {padding-right: 50px; 
+                    }
+                    
+                    .gridContainervideos{
+                        background-color: #AD1C0C;
+                        width: 600px;
+                    height: 3700px;                
+                    display: grid;
+                    grid-template-columns:repeat(1, 1fr);
+                    grid-template-areas: "uno "
+                    "dos"
+                    "tres" 
+                    "cuatro"
+                    "cinco" 
+                    "seis"
+                    }
+                    
+                    .section_videos{
+                        width: 600px;
+                        height: 400px;
+                        padding: 10px;
                     }
                     
                     .gridItemv{           
