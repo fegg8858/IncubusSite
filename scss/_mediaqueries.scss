@@ -13,7 +13,7 @@
     .gridContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 300px;
+        width: 150px;
         height: 2210px;
         background-color: #ad1c0c;
     }
@@ -25,32 +25,32 @@
         background-color: #a8c526;
     }
     .flexTitulo {
-        width: 690px;
+        width: 300px;
     }
     .flexItem {
-        width: 690px;
+        width:300px;
     }
     .section_portada {
-        width: 670px;
+        width: 280px;
         margin: 10px;
     }
     .flexContainer {
-        width: 690px;
+        width: 300px;
     }
     header {
-        width: 690px;
+        width: 300px;
     }
     .footer {
-        width: 690px;
+        width: 300px;
     }
     .cardy {
-        width: 690px;
+        width: 300px;
     }
     .cardys {
-        width: 690px;
+        width: 300pxx;
     }
     img {
-        width: 690px;
+        width: 300px;
     }
 }
 
