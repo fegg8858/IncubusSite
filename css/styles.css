@@ -12,9 +12,9 @@ header {
   header nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     background-color: #AD1C0C;
-    margin-left: 5px;
+    margin: 5px;
     border: solid 2px black; }
   header nav ul li :hover {
     background-color: azure; }
@@ -269,9 +269,9 @@ button {
 @media screen and (max-width: 575px) {
   .gridContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 150px;
-    height: 2210px;
+    grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    height: 4200px;
     background-color: #ad1c0c; }
   .gridItem {
     display: grid;
@@ -279,24 +279,25 @@ button {
     padding: 10px;
     background-color: #a8c526; }
   .flexTitulo {
-    width: 300px; }
+    width: 344px; }
   .flexItem {
-    width: 300px; }
+    width: 344px; }
   .section_portada {
-    width: 280px;
+    width: 324px;
     margin: 10px; }
   .flexContainer {
-    width: 300px; }
+    width: 344px;
+    padding: 0px; }
   header {
-    width: 300px; }
+    width: 344px; }
   .footer {
-    width: 300px; }
+    width: 344px; }
   .cardy {
-    width: 300px; }
+    width: 344px; }
   .cardys {
-    width: 300pxx; }
+    width: 344px; }
   img {
-    width: 300px; } }
+    width: 344px; } }
 
 /*MEDIA QUERIES PAGINA VIDEOS TABLET Y MOVIL*/
 @media screen and (max-width: 575px) {
@@ -304,21 +305,19 @@ button {
     padding-right: 50px; }
   .gridContainervideos {
     background-color: #ad1c0c;
-    width: 690px;
-    height: 3700px;
+    width: 300px;
+    height: 2800px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; }
   .section_videos {
-    width: 600px;
-    height: 400px;
+    width: 280px;
+    height: 300px;
     padding: 10px; }
   .gridItemv {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; }
-  img {
-    width: 690px; } }
+    grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; } }
 
 /* FOOTER Y TARJETAS BOOTSTRAP*/
 /* EXTEND TARJETAS BOOTSTRAP INDEX */
