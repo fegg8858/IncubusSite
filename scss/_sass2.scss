@@ -18,20 +18,19 @@
 
 /* MIXIN FOOTER TODAS LAS PAGINAS */
 
-@mixin piepagina ($colorfondo,$color,$borde,$ancho) {
+@mixin piepagina ($colorfondo,$color,$borde) {
     background-color:$colorfondo;
     color: $color;
     border: $borde;
-    width: $ancho;
 }
 
 .footer{
-    @include piepagina (#16366B,white,1px solid black,1340px);
+    @include piepagina (#16366B,white,1px solid black);
 }
 .cardy{
-    @include piepagina (green,black,1px solid white,1340px);
+    @include piepagina (green,black,1px solid white);
 }
 
 .cardys{
-    @include piepagina (green,white,1px solid white,1340px);
+    @include piepagina (green,white,1px solid white);
 }

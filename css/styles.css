@@ -14,7 +14,7 @@ header {
     display: inline-block;
     padding: 20px;
     background-color: #AD1C0C;
-    margin-left: 25px;
+    margin-left: 5px;
     border: solid 2px black; }
   header nav ul li :hover {
     background-color: azure; }
@@ -265,61 +265,50 @@ button {
   .card-group {
     width: 1330px; } }
 
-/*MEDIA QUERIES PAGINA FOTOS TABLET*/
-@media screen and (max-width: 768px) {
-  .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 900px;
-    height: 1500px; }
-  .gridItem {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-left: 50px; } }
-
 /*MEDIA QUERIES PAGINA FOTOS MOVIL*/
 @media screen and (max-width: 575px) {
   .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 600px;
+    width: 300px;
     height: 2210px;
-    background-color: #AD1C0C; }
+    background-color: #ad1c0c; }
   .gridItem {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
-    background-color: #a8c526; } }
+    background-color: #a8c526; }
+  .flexTitulo {
+    width: 690px; }
+  .flexItem {
+    width: 690px; }
+  .section_portada {
+    width: 670px;
+    margin: 10px; }
+  .flexContainer {
+    width: 690px; }
+  header {
+    width: 690px; }
+  .footer {
+    width: 690px; }
+  .cardy {
+    width: 690px; }
+  .cardys {
+    width: 690px; }
+  img {
+    width: 690px; } }
 
 /*MEDIA QUERIES PAGINA VIDEOS TABLET Y MOVIL*/
-@media screen and (max-width: 768px) {
-  h5 {
-    padding-right: 50px; }
-  .gridContainervideos {
-    width: 900px;
-    height: 3700px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres"  "cuatro" "cinco"  "seis"; }
-  .section_videos {
-    width: 800px;
-    height: 500px;
-    padding: 10px; }
-  .gridItemv {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres"  "cuatro" "cinco"  "seis"; } }
-
 @media screen and (max-width: 575px) {
   h5 {
     padding-right: 50px; }
   .gridContainervideos {
-    background-color: #AD1C0C;
-    width: 600px;
+    background-color: #ad1c0c;
+    width: 690px;
     height: 3700px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres"  "cuatro" "cinco"  "seis"; }
+    grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; }
   .section_videos {
     width: 600px;
     height: 400px;
@@ -327,7 +316,9 @@ button {
   .gridItemv {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "uno " "dos" "tres"  "cuatro" "cinco"  "seis"; } }
+    grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; }
+  img {
+    width: 690px; } }
 
 /* FOOTER Y TARJETAS BOOTSTRAP*/
 /* EXTEND TARJETAS BOOTSTRAP INDEX */
@@ -344,17 +335,14 @@ button {
 .footer {
   background-color: #16366B;
   color: white;
-  border: 1px solid black;
-  width: 1340px; }
+  border: 1px solid black; }
 
 .cardy {
   background-color: green;
   color: black;
-  border: 1px solid white;
-  width: 1340px; }
+  border: 1px solid white; }
 
 .cardys {
   background-color: green;
   color: white;
-  border: 1px solid white;
-  width: 1340px; }
+  border: 1px solid white; }
