@@ -265,6 +265,10 @@ button {
   .card-group {
     width: 1330px; } }
 
+/*MEDIA QUERIES PAGINA EVENTOS TABLET Y MOVIL*/
+.flexItemeventos {
+  width: 348px; }
+
 /*MEDIA QUERIES PAGINA FOTOS MOVIL*/
 @media screen and (max-width: 575px) {
   .gridContainer {
