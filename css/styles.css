@@ -268,7 +268,8 @@ button {
 /*MEDIA QUERIES PAGINA EVENTOS TABLET Y MOVIL*/
 @media screen and (max-width: 575px) {
   .flexItemeventos {
-    width: 348px; } }
+    width: 348px;
+    height: 700px; } }
 
 /*MEDIA QUERIES PAGINA FOTOS MOVIL*/
 @media screen and (max-width: 575px) {
