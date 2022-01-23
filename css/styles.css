@@ -279,25 +279,25 @@ button {
     padding: 10px;
     background-color: #a8c526; }
   .flexTitulo {
-    width: 344px; }
+    width: 348px; }
   .flexItem {
-    width: 344px; }
+    width: 348px; }
   .section_portada {
     width: 324px;
     margin: 10px; }
   .flexContainer {
-    width: 344px;
+    width: 348px;
     padding: 0px; }
   header {
-    width: 344px; }
+    width: 348px; }
   .footer {
-    width: 344px; }
+    width: 348px; }
   .cardy {
-    width: 344px; }
+    width: 348px; }
   .cardys {
-    width: 344px; }
+    width: 348px; }
   img {
-    width: 344px; } }
+    width: 348px; } }
 
 /*MEDIA QUERIES PAGINA VIDEOS TABLET Y MOVIL*/
 @media screen and (max-width: 575px) {
