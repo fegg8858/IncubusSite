@@ -265,10 +265,10 @@ button {
   .card-group {
     width: 1330px; } }
 
-/*MEDIA QUERIES PAGINA EVENTOS TABLET Y MOVIL*/
+/*MEDIA QUERIES PAGINA EVENTOS MOVIL*/
 @media screen and (max-width: 575px) {
   .flexItemeventos {
-    width: 348px;
+    width: 375px;
     height: 700px; } }
 
 /*MEDIA QUERIES PAGINA FOTOS MOVIL*/
@@ -276,54 +276,59 @@ button {
   .gridContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 300px;
-    height: 4200px;
+    width: 375px;
+    height: 4500px;
     background-color: #ad1c0c; }
   .gridItem {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 10px;
+    padding: 20px;
     background-color: #a8c526; }
   .flexTitulo {
-    width: 348px; }
+    width: 375px; }
   .flexItem {
-    width: 348px; }
+    width: 375px; }
   .section_portada {
     width: 324px;
     margin: 10px; }
   .flexContainer {
-    width: 348px;
+    width: 375px;
     padding: 0px; }
   header {
-    width: 348px; }
+    width: 375px; }
   .footer {
-    width: 348px; }
+    width: 375px; }
   .cardy {
-    width: 348px; }
+    width: 375px; }
   .cardys {
-    width: 348px; }
+    width: 375px; }
   img {
-    width: 348px; } }
+    width: 375px; } }
 
-/*MEDIA QUERIES PAGINA VIDEOS TABLET Y MOVIL*/
+/*MEDIA QUERIES PAGINA VIDEOS MOVIL*/
 @media screen and (max-width: 575px) {
-  h5 {
-    padding-right: 50px; }
   .gridContainervideos {
     background-color: #ad1c0c;
-    width: 300px;
-    height: 2800px;
+    width: 375px;
+    height: 2600px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; }
   .section_videos {
     width: 280px;
     height: 300px;
-    padding: 10px; }
+    padding: 10px;
+    margin-left: 55px; }
   .gridItemv {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis"; } }
+
+/*MEDIA QUERIES PAGINA CONTACTO  MOVIL*/
+@media screen and (max-width: 575px) {
+  .flexformulario {
+    width: 375px;
+    height: 700px; } }
 
 /* FOOTER Y TARJETAS BOOTSTRAP*/
 /* EXTEND TARJETAS BOOTSTRAP INDEX */
