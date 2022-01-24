@@ -7,6 +7,39 @@
     }
 }
 
+/*MEDIA QUERIES PAGINA INDEX MOVIL*/
+
+@media screen and (max-width: 575px) {
+
+    .biografia_banda {
+        background-color: gray;
+        height:930px ;
+        width: 375px;
+    }
+
+    .foto_banda{
+      
+      width: 375px;
+      height:532px;
+     margin-left: -1px;
+    }
+
+    .card{
+        width: 375px;
+        height: 700px;
+    }
+
+    .flexItem video{
+        width: 375px;
+        height: 315px;
+    }
+    .video_presentacion{
+        padding-top: 30px;
+        width: 375px; ;
+        height: 415px;
+    }
+}
+
 
 /*MEDIA QUERIES PAGINA EVENTOS MOVIL*/
 
