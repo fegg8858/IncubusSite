@@ -7,7 +7,7 @@ header {
   padding: 5px 0px;
   margin: 0px;
   background-image: url(../Fotos/ImagendeFondo.jpg);
-  width: 1340px;
+  width: 100%;
   height: 400px; }
   header nav ul li {
     list-style-type: none;
@@ -52,9 +52,13 @@ header {
 
 /* FOTO BANDA INDEX */
 .foto_banda {
-  margin-left: 700px;
-  width: 640px;
-  height: 532px; }
+  margin-left: 670px;
+  height: 580px;
+  margin-top: 30px; }
+
+.fotob {
+  background-color: burlywood;
+  width: 100%; }
 
 /* SECCION FOTOS //PAGINA FOTOS */
 .seccion_fotos {
@@ -136,7 +140,7 @@ button {
 /* CSS FLEX PAGINA INDEX Y EVENTOS */
 /* CSS FLEX MENU NAVEGACION */
 .flexContainer {
-  width: 1340px;
+  width: 100%;
   height: 140px;
   background-color: gray;
   display: flex;
@@ -149,13 +153,13 @@ button {
 /* CSS FLEX SECCION BIOGRAFIA INDEX */
 .flexItem {
   margin-top: 16px;
-  width: 660px;
-  height: 530px;
+  width: 640px;
+  height: 580px;
   background-color: gray; }
 
 /* CSS FLEX FOTO PORTADA */
 .portada {
-  width: 1340px;
+  width: 100%;
   height: 430px;
   background-color: darkgreen;
   flex-flow: column wrap;
@@ -163,7 +167,7 @@ button {
 
 /* CSS FLEX VIDEO PRESENTACION INDEX */
 .video {
-  width: 1340px;
+  width: 100%;
   height: 500px;
   margin-bottom: 10px;
   background-color: white;
@@ -172,14 +176,14 @@ button {
 
 /* CSS FLEX TITULO PAGINAS */
 .flexTitulo {
-  width: 1340px;
+  width: 100%;
   height: 100px;
   background-color: blueviolet;
   border: solid 2px black; }
 
 /* CSS FLEX LISTADO PAGINA EVENTOS */
 .flexItemeventos {
-  width: 1340px;
+  width: 100%;
   height: 500px;
   background-color: #f5f5f5;
   border: solid 2px black;
@@ -188,7 +192,7 @@ button {
 /* CSS GRID PAGINA FOTOS Y VIDEOS */
 /* CSS GRID PAGINA FOTOS */
 .gridContainer {
-  width: 1340px;
+  width: 100%;
   height: 1100px;
   margin-bottom: 20px;
   background-color: darkblue;
@@ -208,7 +212,7 @@ button {
 /* CSS GRID PAGINA VIDEOS */
 .gridContainervideos {
   margin-bottom: 30px;
-  width: 1340px;
+  width: 100%;
   height: 1300px;
   background-color: tomato;
   display: grid;
@@ -256,14 +260,14 @@ button {
   display: flex;
   grid-template-columns: repeat(1, 1fr);
   flex-direction: column;
-  width: 1340px;
+  width: 100%;
   height: 680px; }
 
 /*MEDIA QUERIES*/
 /*TARJETAS BOOTSTRAP*/
 @media screen and (max-width: 1422px) {
   .card-group {
-    width: 1330px; } }
+    width: 100%; } }
 
 /*MEDIA QUERIES PAGINA INDEX MOVIL*/
 @media screen and (max-width: 575px) {

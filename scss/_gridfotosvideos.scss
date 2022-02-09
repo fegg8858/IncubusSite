@@ -2,7 +2,7 @@
 
 /* CSS GRID PAGINA FOTOS */ 
 .gridContainer{
-    width: 1340px;
+    width: 100%;
     height: 1100px;
     margin-bottom: 20px;
 background-color: darkblue;
@@ -25,7 +25,7 @@ align-self: center;
 /* CSS GRID PAGINA VIDEOS */ 
 .gridContainervideos {
     margin-bottom: 30px;
-    width: 1340px;
+    width: 100%;
     height: 1300px;
  background-color: tomato;
 display: grid;
