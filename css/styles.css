@@ -286,7 +286,11 @@ button {
   .video_presentacion {
     padding-top: 30px;
     width: 100%;
-    height: 415px; } }
+    height: 415px; }
+  .section_portada {
+    margin: -50px;
+    width: 370px;
+    height: 380px; } }
 
 /*MEDIA QUERIES PAGINA EVENTOS MOVIL*/
 @media screen and (max-width: 575px) {

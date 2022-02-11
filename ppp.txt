@@ -1,0 +1,148 @@
+juan ventura
+you tube pagina
+
+codigo pagina
+<!DOCTYPE html>
+<html>
+  <head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  </head>
+  <body>
+<div id="principal">
+    <header>
+      <div id="logo">
+        <h3>ROCKINFOCOL</h3>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="">INICIO</a></li>
+              <li><a href="">EVENTOS</a></li>
+                <li><a href="">FOTOS</a></li>
+                  <li><a href="">BANDAS</a></li>
+                    <li><a href="">VIDEOS</a></li>
+                    <li><a href="">BLOG</a></li>
+          </ul>
+        </nav>
+    </header>
+  <section id="slide">
+    <h1>PROXIMOS EVENTOS<h1>
+    <img src="img/rock.jpg" width="200" height="250">
+    <img src="img/rock.jpg" width="200" height="250">
+    <img src="img/rock.jpg" width="200" height="250">
+    <img src="img/rock.jpg" width="200" height="250">
+<h1>GLOSARIO DE BANDAS</h1>
+<section>
+<nav class="GLOSARIO">
+
+  <ul>
+    <li><a href="">A</a></li>
+      <li><a href="">B</a></li>
+        <li><a href="">C</a></li>
+          <li><a href="">D</a></li>
+            <li><a href="">E</a></li>
+            <li><a href="">F</a></li>
+            <li><a href="">G</a></li>
+              <li><a href="">H</a></li>
+                <li><a href="">I</a></li>
+                <li><a href="">J</a></li>
+                <li><a href="">K</a></li>
+                  <li><a href="">L</a></li>
+                    <li><a href="">M</a></li>
+                      <li><a href="">N</a></li>
+                        <li><a href="">O</a></li>
+                        <li><a href="">P</a></li>
+                        <li><a href="">Q</a></li>
+                          <li><a href="">R</a></li>
+                            <li><a href="">S</a></li>
+                            <li><a href="">T</a></li>
+                            <li><a href="">U</a></li>
+                              <li><a href="">V</a></li>
+                              <li><a href="">W</a></li>
+                              <li><a href="">X</a></li>
+                                <li><a href="">Y</a></li>
+                                  <li><a href="">Z</a></li>
+  </ul>
+
+</section>
+    <section id="categorias">
+
+      <h2>Bandas Internacionales </h2>
+
+    <section class="uno">
+<img src="img/rock2.jpg" width="200" height="140">
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+<a href="" class="leer-mas">Leer mas</a><br>
+    </section>
+    <section class="uno dos">
+      <img src="img/rock3.jpg" width="200" height="140">
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <a href="" class="leer-mas">Leer mas</a><br>
+    </section>
+
+    <section class="uno tres">
+      <img src="img/rock3.jpg" width="200" height="140">
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <a href="" class="leer-mas">Leer mas</a><br>
+
+</section>
+
+<section class="uno cuatro">
+  <img src="img/rock3.jpg" width="200" height="140">
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <a href="" class="leer-mas">Leer mas</a><br>
+</section>
+
+  <h2>Bandas Nacionales </h2>
+<section class="uno cinco">
+  <img src="img/rock3.jpg" width="200" height="140">
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <a href="" class="leer-mas">Leer mas</a><br>
+
+</section>
+<section class="uno seis">
+  <img src="img/rock3.jpg" width="200" height="140">
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <a href="" class="leer-mas">Leer mas</a><br>
+</section>
+<section class="uno siete">
+  <img src="img/rock3.jpg" width="200" height="140">
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <a href="" class="leer-mas">Leer mas</a><br>
+</section>
+<section class="uno ocho">
+  <img src="img/rock3.jpg" width="200" height="140">
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <a href="" class="leer-mas">Leer mas</a><br>
+
+
+
+  </section><!--/categorias-->
+<section id="info">
+  <section id="izq">
+  <p>
+    <img src="img/rock.jpg" align="left" width="150">
+    <h2>Bienvenidos</h2>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+</section>
+  <section id="der">
+    <h2>Video de la semana</h2>
+    <iframe width="290" height="315" src="https://www.youtube.com/embed/4U4BfhX97YE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+</section><!--/info-->
+<footer>
+  <p>
+    Copyrigth - ROCKINFOCOL - 2020 <br>
+    Todos los derechos reservado. <br>
+  Aviso Legal - Politica de privacidad </a>
+</p>
+  </body>
+</html>
